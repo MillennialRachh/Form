@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+          <title>Survey Form</title>
+  </head>
+
+<body>
+    
+
+
+<form action ="form.html" method="POST">
+
+        <section id="overlay">
+                <img src="/Users/rachealidowu/Desktop/Hi Millennial/med_1hi_millennial_logo.png" id="logo">
+                <br>
+    
+    <section class="details">
+
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" value="Enter your name" required>
+  <hr>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" value="Enter your email" required>
+   </section>
+  
+
+  <section class="content">
+      <p>What would you like me to write 
+          about on himillennial.com? <br>(Select all that apply)</p>
+      <label for="technical">Projects</label>
+      <input id="technical" name="content" type="checkbox" value="technical">
+      <br>
+
+      <label for="events">Tech Events</label>
+      <input id="events" name="content" type="checkbox" value="events">
+      <br>
+
+      <label for="learning">Learning how to Code</label>
+      <input id="learning" name="content" type="checkbox" value="learning">
+      <hr>
+  </section>
+  
+
+  <section class="learning">
+      <label for="learning">Are you currently learning how to code?</label>
+      <select id="answer" name="answer">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="interested">I'm Interested</option>
+    </select>      
+</section>
+    <hr>
+
+
+  <section class="comments">
+  <label for="comments">Any comments or suggestions?</label>
+  <br>
+  <textarea id="comments" name="comments" rows="2" cols="10">
+
+  </textarea>
+
+  </section>
+
+
+  <section class="send">
+  <button type="submit">Submit</button>
+
+  </section>
+
+
+</form>
+    
+</body>
+  </html>
+
